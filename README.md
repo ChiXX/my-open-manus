@@ -75,5 +75,3 @@ Check out more detailed examples of how the agent handles various scenarios, inc
 
 - [ ] **Vision-based Fallback:** Implement a vision-driven backup mechanism (LLM Vision) to handle edge cases where semantic DOM classification and knowledge-based rules still cannot accurately identify interactive elements.
 
-## 📄 License
-This project is licensed under the MIT License.
