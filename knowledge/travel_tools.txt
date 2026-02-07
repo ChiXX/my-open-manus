@@ -1,0 +1,29 @@
+# OpenManus Knowledge Base - Common Scenario Handling Methods
+
+================================================================================
+## Case 1: Searching for Flights (Ctrip and other websites)
+================================================================================
+
+### Scenario Description
+The user wants to query flights from one city to another.
+
+### Recommended Method: Use URL parameters for direct navigation (avoid operating calendar selectors)
+
+### Ctrip Flight URL Format
+
+One-way:
+https://flights.ctrip.com/online/list/oneway-{departure_city_code}-{arrival_city_code}?depdate={date_YYYY-MM-DD}&cabin=y&adult=1&child=0&infant=0
+
+### Common City Codes
+
+Shanghai=sha, Beijing=pek, Guangzhou=can, Shenzhen=szx, Chengdu=ctu, Hangzhou=hgh
+Nanjing=nkg, Wuhan=wuh, Xi'an=sia, Chongqing=ckg, Sanya=syx, Hong Kong=hkg
+
+### Example
+
+From Shanghai to Beijing, January 30, 2026:
+https://flights.ctrip.com/online/list/oneway-sha-pek?depdate=2026-01-30&cabin=y&adult=1&child=0&infant=0
+
+================================================================================
+## Case 2: (To be added)
+================================================================================
